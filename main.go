@@ -10,6 +10,7 @@ type User struct {
 func (u User) Greet() {
 	fmt.Println("Здравствуй,", u.Name)
 }
+
 func main() {
 	users := []User{
 		{Name: "Vasya", Age: 12},
